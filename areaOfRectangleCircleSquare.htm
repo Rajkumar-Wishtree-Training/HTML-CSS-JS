@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text" name="len" id="len" placeholder="length of Rectangle">
+    <input type="text" name="wid" id="wid" placeholder="Width of Rectangel"> -->
+    <input type="text" name="radius" id="">
+    <button  type="submit">Click</button>
+    <h2 id="output"></h2>
+    <script>
+        // let btn = document.getElementsByTagName("button")[0];
+        // btn.addEventListener('click',()=>{
+        //    let len = document.getElementById('len').value;
+        //    let wid = document.getElementById('wid').value;
+        //    document.getElementById('output').innerHTML = len * wid;
+
+        // })
+        let btn1 = document.getElementsByTagName('button')[0];
+        const PI = 3.14;
+        btn1.addEventListener('click',()=>{
+            let radius = document.getElementsByTagName('input')[0].value;
+            console.log(radius);
+            document.getElementById('output').innerHTML = 2*PI*radius;
+        })
+    </script>
+</body>
+</html>

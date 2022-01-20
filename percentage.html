@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="per"></h1>
+    <h1 id="per1"></h1>
+    <script>
+        let math = prompt("Math: ");
+        let phy = prompt("phy: ");
+        let che = prompt("che: ");
+        let bio = prompt("bio: ");
+        let his = prompt("history: ");
+        // let add = math + phy + che + bio + his;
+        // console.log(add);
+        let percentage = (parseInt(math) + parseInt(phy) + parseInt(che) + parseInt(bio) + parseInt(his))/5;
+         document.getElementById('per').innerHTML = percentage;
+
+
+        if(parseInt(percentage)>70) document.getElementById('per1').innerHTML = "distinction";
+        else if(parseInt(percentage)> 50) document.getElementById('per1').innerHTML = "pass";
+        else document.getElementById('per1').innerHTML = "fail";
+
+    </script>
+</body>
+</html>

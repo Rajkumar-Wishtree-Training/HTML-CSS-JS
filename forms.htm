@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    summary{
+        font-size: 1.3rem ;
+    }
+    form {
+        width: 60%;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    div>div {
+        padding: 10px;
+    }
+
+    label {
+        font-family: 'Arial Narrow Bold', sans-serif;
+    }
+
+    input,
+    textarea {
+        border: 2px solid black;
+        border-radius: 4px;
+    }
+
+    button {
+        padding: 5px;
+        width: 20%;
+        border: 3px solid black;
+        border-radius: 2rem;
+        margin: auto;
+        font-family: 'Arial Narrow Bold';
+        font-weight: bold;
+        font-size: 1.2rem;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    button:hover {
+        border: 4px solid rgb(0, 0, 0);
+        background-color: black;
+        color: white;
+    }
+</style>
+
+<body>
+
+    <form action="none.php">
+        <h1>Form Assignment</h1>
+        <details>
+            <summary>
+                personal Info
+            </summary>
+            <div class="personal">
+                <div id="name">
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" id="fname" placeholder="Rajkumar">
+                    <label for="mname">Middle Name:</label>
+                    <input type="text" name="mname" id="mname" placeholder="Naresh Bhai">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" id="lname" placeholder="Patel">
+                </div>
+                <div id="dob">
+                    <label for="dob">Birth Date</label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div id="r_status">
+                    <label for="r_status">Relation Status: </label>
+                    <label for="single">single</label>
+                    <input type="radio" name="r_status" id="single" checked>
+                    <label for="commited">Commited</label>
+                    <input type="radio" name="r_status" id="commited">
+                </div>
+                <div id="sex">
+                    <label for="sex">Gender: </label>
+                    <label for="Male">Male</label>
+                    <input type="radio" name="sex" id="Male" checked>
+                    <label for="Female">Female</label>
+                    <input type="radio" name="sex" id="Female">
+                </div>
+                <div id="email">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="abcde@gfh.com">
+                </div>
+                <div id="m_num">
+                    <label for="mobile">Mobile number:</label>
+                    <input type="text" name="mobile" id="mobile" placeholder="+91-999999999">
+                </div>
+                <div id="add">
+                    <label for="add">Adress:</label>
+                    <textarea name="add" id="add" cols="90" rows="2"></textarea>
+
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary>
+                Education
+            </summary>
+        <div id="education">
+            <div id="school">
+                <label for="school">School Name: </label>
+                <textarea name="school" id="school" cols="50" rows="1" placeholder="Sanskruti Vidya mandir"></textarea>
+            </div>
+            <div id="school_add">
+                <label for="school_add">School address:</label>
+                <textarea name="school_add" id="school_add" cols="90" rows="2"></textarea>
+            </div>
+            <div id="clg">
+                <label for="college">College Name:</label>
+                <textarea name="college" id="college" cols="50" rows="1"
+                    placeholder="U.V Patel College Of Engineering"></textarea>
+            </div>
+            <div id="clg_add">
+                <label for="clg_add">College address:</label>
+                <textarea name="clg_add" id="clg_add" cols="90" rows="2"></textarea>
+            </div>
+            <div id="res">
+                <label for="10th_res">10th Result(percentage):</label>
+                <input type="number" name="10th_res" id="10th_res">
+                <label for="12th_res">12th Result(percentage):</label>
+                <input type="number" name="12th_res" id="12th_res">
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>
+        Bank Details
+    </summary>
+        <div id="bank_details">
+            <div id="b_name">
+                <label for="b_name">Enter your Bank Name:</label>
+                <input type="text" name="b_name" id="b_name">
+            </div>
+            <div id="acc_no">
+                <label for="acc_no">Enter your Acc no:</label>
+                <input type="text" name="acc_no" id="acc_no">
+            </div>
+            <div id="acc_type">
+                <label for="acc_type">Accout_type</label>
+                <select name="acc_type" id="acc_type">
+                    <!-- <label for="saving">Saving</label> -->
+                    <option value="saving">Saving</option>
+                    <option value="current">Current</option>
+                    <option value="business">Business</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </details>
+        
+        
+    </form>
+</body>
+
+</html>
