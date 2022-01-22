@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        const emp = [
+        {
+            name : 'rajkumar',
+            id : 1,
+            city : 'vadodara',
+            salary : 500000
+        },
+        {
+            name : 'rkpatel',
+            id : 2,
+            city : 'mumbai',
+            salary : 120000
+        },
+        {
+            name : 'raj',
+            id : 3,
+            city : 'banglore',
+            salary : 2344
+        },
+        {
+            name : 'rr',
+            id : 5,
+            city : 'Ahmedabad',
+            salary : 50000
+        }
+        ];
+        console.log(emp);
+        setTimeout(() => {
+            
+        }, 200);
+        emp.sort(function(a,b){
+            return a.salary - b.salary;
+        })
+        console.log(emp);
+    </script>
+</body>
+</html>
