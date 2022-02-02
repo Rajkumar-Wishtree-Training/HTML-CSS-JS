@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-1</title>
+</head>
+<style>
+    table , th , td {
+        margin: auto;
+        width: 40vw;
+        border:2px solid black;
+        padding: 15px;
+        border-collapse: collapse;
+    }
+    #row2 , #row4{
+        
+    }
+</style>
+<body>
+    <Table>
+        <caption><h1>Favorite and least favorite Things</h1></caption>
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Bob</th>
+            <th>Alice</th>
+        </tr>
+        <tr id="row2">
+              <th rowspan="2">Favorite</th>
+              <th>Color</th>
+              <td>Blue</td>
+              <td>Purple</td>
+        </tr>
+        <tr>
+                <th>Flower</th>
+                <td>Banana</td>
+                <td>Chocolate</td>
+        </tr>
+        <tr id="row4">
+            <th rowspan="2">Least Favoirate</th>
+            <th>Color</th>
+            <td>Yellow</td>
+            <td>Pink</td>
+        </tr>
+        <tr>
+            <th>Flavor</th>
+            <td>Mint</td>
+            <td>Walnut</td>
+        </tr>
+    </Table>
+</body>
+</html>

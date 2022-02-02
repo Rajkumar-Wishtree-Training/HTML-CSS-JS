@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Practice</title>
+</head>
+<style>
+    table,
+    th,
+    td {
+        border-collapse: collapse;
+        /* border-style: dotted; */
+        /* border-spacing: 15px; */
+        border: 2px solid black;
+    }
+
+    table {
+        /* width: 100vw; */
+        border-spacing: 20px;
+    }
+
+    #row2 {
+        height: 10vh;
+    }
+
+    #th1 {
+        /* column-span:"2"; */
+        width: 10vw;
+
+    }
+</style>
+
+<body>
+    <table>
+        <caption>
+            <h1>This is Dummy table</h1>
+        </caption>
+        <colgroup>
+            <col span="2" style="background-color: cadetblue;">
+            <col span="3" style="background-color: chocolate;">
+        </colgroup>
+        <tr>
+            <th colspan="2" id="th1">ID</th>
+            <!-- <th style="width:10vw">name</th> -->
+            <th style="width: 5vw;">salary</th>
+            <th style="width: 10vw;"> city</th>
+            <th style="width: 4vw;">status</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ra</td>
+            <td>8868</td>
+            <td>Ahmedabad</td>
+            <td>Active</td>
+        </tr>
+        <tr id="row2">
+            <td>2</td>
+            <td>Rar</td>
+            <td>8868</td>
+            <td>Ahmedabad</td>
+            <td>Active</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ramar</td>
+            <td>8868</td>
+            <td>Ahmedabad</td>
+            <td>Active</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Rajar</td>
+            <td>8868</td>
+            <td>Ahmedabad</td>
+            <td>Active</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Raar</td>
+            <td>8868</td>
+            <td>Ahmedabad</td>
+            <td>Active</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Rmar</td>
+            <td>8868</td>
+            <td>Ahmedabad</td>
+            <td>Active</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Raar</td>
+            <td>8868</td>
+            <td>Ahmedabad</td>
+            <td>Active</td>
+        </tr>
+    </table>
+</body>
+
+</html>

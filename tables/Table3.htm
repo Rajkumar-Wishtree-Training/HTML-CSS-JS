@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table3</title>
+</head>
+<style>
+    table , th  , td {
+           width: 40vw;
+           margin: auto;
+           border: 2px solid black;
+           padding: 13px;
+           border-collapse: collapse;
+           font-size: 1.2rem;
+
+    } 
+    .th{
+        background-color: rgb(250, 249, 246);
+    }
+</style>
+<body>
+    <table>
+        <caption><h1>Invoice</h1></caption>
+        <tr>
+            <th>Item/Desc</th>
+            <th>Qty</th>
+            <th>@</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>PaperClips(Box)</td>
+            <td>    100</td>
+            <td>1.5</td>
+            <td>115</td>
+        </tr>
+        <tr>
+            <td>Paper(Case)</td>
+            <td>10</td>
+            <td>45.99</td>
+            <td>459.90</td>
+        </tr>
+        <tr>
+            <td>Waste Paper Baskets</td>
+            <td>2</td>
+            <td>17.99</td>
+            <td>35.98</td>
+        </tr>
+        <tr>
+            <th class="th" colspan="3">Sub Total</th>
+            <td>610.88</td>
+        </tr>
+        <tr>
+            <th class="th" colspan="2">Tax</th>
+            <td>7%</td>
+            <td>42.76</td>
+        </tr>
+        <tr>
+            <th class="th" colspan="3">Total</th>
+            <td>653.4</td>
+        </tr>
+    </table>
+</body>
+</html>
