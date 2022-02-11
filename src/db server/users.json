@@ -1,0 +1,54 @@
+{
+    "Employee": [
+        {
+            "id": 1,
+            "name": "rajkumar",
+            "salary": 9000,
+            "deptid" : 1
+        },
+        {
+            "id": 2,
+            "name": "Hetkumar",
+            "salary": 89000,
+            "deptid":2
+        },
+        {
+            "id": 3,
+            "name": "mahesh",
+            "salary": 9990,
+            "deptid":1
+        },
+        {
+            "id": 4,
+            "name": "keshav",
+            "salary": 890,
+            "deptid":3
+        },
+        {
+            "id": 5,
+            "name": "Keyur",
+            "salary": 980,
+            "deptid":2
+        },
+        {
+            "id": 6,
+            "name": "Hetkumar",
+            "salary": 89000,
+            "deptid":3
+        }
+    ],
+    "Department":[
+        {
+            "id":1,
+            "deptName":"Web"
+        },
+        {
+            "id":2,
+            "deptName":"Mobile"
+        },
+        {
+            "id":3,
+            "deptName":"DevOps"
+        }
+    ]
+}

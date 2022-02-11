@@ -1,0 +1,28 @@
+{
+  "Vendor": [
+    {
+      "id": "1",
+      "name": "Rajkumar",
+      "contactNo": "9865757565",
+      "type": false
+    },
+    {
+      "id": "2",
+      "name": "Hetkumar ",
+      "contactNo": "987868676",
+      "type": false
+    },
+    {
+      "id": "3",
+      "name": "Vaibhav Kuma",
+      "contactNo": "98642345",
+      "type": true
+    },
+    {
+      "id": "11",
+      "name": "Rajkumar Patel",
+      "contactNo": "",
+      "type": false
+    }
+  ]
+}
